@@ -1,3 +1,3 @@
 # BashLinux
 
-![BASH](img/img1.jpg)
+![BASH](img/bash.jpg)
