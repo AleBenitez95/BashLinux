@@ -1,5 +1,5 @@
 ````
-nano
+$nano
 ````
 
 | Opción               | Descripción                                                                 |
@@ -21,7 +21,7 @@ nano
 ----------------------------------------------------------------------------
 
 ```
-vim
+$vim
 ```
 
 | Acción                           | Comando en Vim                        | Descripción                                                                |
