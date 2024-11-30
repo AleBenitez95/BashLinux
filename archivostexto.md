@@ -24,13 +24,30 @@ nano
 vim
 ```
 
-| Opción                  | Descripción                                                                 |
-|-------------------------|-----------------------------------------------------------------------------|
-| `vim archivo`           | Abre el archivo especificado en el editor `vim`. Si el archivo no existe, lo crea. |
-| `vim -R archivo`        | Abre el archivo en modo solo lectura (no puedes guardar los cambios).       |
-| `vim -b archivo`        | Abre el archivo en modo binario (útil para archivos no-texto).              |
-| `vim -u archivo`        | Carga un archivo de configuración específico en lugar del archivo predeterminado de `.vimrc`. |
-| `vim --version`         | Muestra la versión de `vim` instalada en el sistema.                        |
-| `vim -V`                | Inicia `vim` en modo verbose (muestra información de depuración).           |
-| `vim -y archivo`        | Abre el archivo en "modo fácil" (ideal para leer archivos grandes, como logs). |
-| `vim --help`            | Muestra la ayuda de `vim` con una lista de opciones disponibles.            |
+| Acción                           | Comando en Vim                        | Descripción                                                                |
+|----------------------------------|---------------------------------------|----------------------------------------------------------------------------|
+| **Abrir archivo**                | `vim archivo`                         | Abre el archivo en `vim`. Si no existe, crea un archivo nuevo.              |
+| **Entrar en modo de inserción**  | `i`                                   | Entra en el modo de inserción para empezar a escribir.                     |
+| **Volver al modo de comando**    | `Esc`                                 | Sale del modo de inserción y vuelve al modo de comando.                    |
+| **Guardar archivo**              | `:w`                                  | Guarda los cambios del archivo actual.                                     |
+| **Salir de Vim**                 | `:q`                                  | Sale de Vim. Si hay cambios sin guardar, te pedirá confirmación.           |
+| **Guardar y salir**              | `:wq`                                 | Guarda los cambios y luego sale de Vim.                                    |
+| **Salir sin guardar cambios**    | `:q!`                                 | Sale sin guardar los cambios.                                              |
+| **Borrar una línea**             | `dd`                                  | Borra la línea donde está el cursor.                                       |
+| **Copiar una línea**             | `yy`                                  | Copia la línea donde está el cursor.                                       |
+| **Pegar texto**                  | `p`                                   | Pega el texto copiado o cortado después del cursor.                        |
+| **Deshacer cambio**              | `u`                                   | Deshace el último cambio realizado.                                        |
+| **Rehacer cambio**               | `Ctrl + r`                            | Rehace el cambio que fue deshecho.                                         |
+| **Buscar texto**                 | `/texto`                              | Busca el texto especificado hacia adelante.                                |
+| **Buscar hacia atrás**           | `?texto`                              | Busca el texto especificado hacia atrás.                                   |
+| **Moverse al inicio del archivo**| `gg`                                  | Mueve el cursor al principio del archivo.                                  |
+| **Moverse al final del archivo** | `G`                                   | Mueve el cursor al final del archivo.                                      |
+| **Ir a una línea específica**    | `:n`                                  | Mueve el cursor a la línea número `n`.                                     |
+| **Moverse al inicio de una línea**| `0`                                  | Mueve el cursor al inicio de la línea actual.                              |
+| **Moverse al final de una línea**| `$`                                  | Mueve el cursor al final de la línea actual.                               |
+| **Reemplazar texto**             | `r` seguido de un carácter            | Reemplaza el carácter bajo el cursor por el que se especifique.            |
+| **Abrir otra ventana (archivo)** | `:e otro_archivo`                     | Abre un archivo diferente en la misma sesión de Vim.                       |
+| **Dividir la ventana**           | `:split`                              | Divide la ventana de Vim en dos.                                           |
+| **Cerrar la ventana actual**     | `:q`                                  | Cierra la ventana actual (si hay varias ventanas abiertas).                |
+
+
