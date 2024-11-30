@@ -1,5 +1,5 @@
 ```
-chmod [opciones] permisos archivo
+#chmod [opciones] permisos archivo
 ```
 
 ### Modo simbólico
