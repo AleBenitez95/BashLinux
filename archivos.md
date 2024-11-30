@@ -1,5 +1,5 @@
 ```
-ls
+$ls
 ```
 
 | Opción               | Descripción                                                   |
