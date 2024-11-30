@@ -14,7 +14,7 @@
 
 [Filtros](filtros.md)
 
-[Instalación de paquetes](instalacion)
+[Instalación de paquetes](instalacion.md)
 
 [Servicio Web](web.md)
 
