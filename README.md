@@ -1,4 +1,4 @@
-# BashLinux
+# Bash Linux Básico
 
 ![BASH](img/bash.jpg)
 
@@ -24,4 +24,24 @@
 
 [Acceso remoto](accesoremoto.md)
 
-[Nmap](nmap.md)
+# Bash Linux Intermedio
+
+[Programacion de tareas](progra.md)
+
+[Gestión de usuarios](gestion.md)
+
+[Gestión de procesos](gestionp.md)
+
+[Gestión de servicios](gestions.md)
+
+[Gestión de carpetas](gestionc.md)
+
+[Gestión de Modulos](gestionm.md)
+
+[Gestión de impresoras](gestioni.md)
+
+[Gestión de volumenes lógicos](gestionv.md)
+
+[Gestión de cuotas](gestioncu.md)
+
+[Gestión de RAID´s](gestionr.md)
