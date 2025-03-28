@@ -37,3 +37,5 @@ atrm
 > - Controla qué usuarios **NO** pueden usar el comando `at` para programar trabajos.
 > - Si el archivo existe, los usuarios listados no podrán usar `at`.
 > - Si no existe, todos los usuarios pueden usar `at`, excepto los listados en `/etc/at.allow` (si existe).
+
+![atdeny](img/atdeny.png)
