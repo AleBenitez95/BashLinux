@@ -1,6 +1,8 @@
-# Bash Linux Básico
+
 
 ![BASH](img/bash.jpg)
+
+# Bash Linux Básico
 
 [Permisos](permisos.md)
 
