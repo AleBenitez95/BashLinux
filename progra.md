@@ -39,3 +39,25 @@ atrm
 > - Si no existe, todos los usuarios pueden usar `at`, excepto los listados en `/etc/at.allow` (si existe).
 
 ![atdeny](img/atdeny.png)
+
+
+````
+crontab
+````
+
+
+| Comando    | Descripción                                                                 | Sintaxis                                                              |
+|------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| `crontab`  | Comando para editar, instalar y eliminar cron jobs.                          | `crontab [opciones] [archivo]`                                        |
+| `crontab -e` | Editar el archivo crontab del usuario actual.                               | `crontab -e`                                                          |
+| `crontab -l` | Listar los cron jobs del usuario actual.                                   | `crontab -l`                                                          |
+| `crontab -r` | Eliminar el crontab del usuario actual.                                     | `crontab -r`                                                          |
+| `crontab -i` | Confirmación antes de eliminar el crontab del usuario.                      | `crontab -ri`                                                         |
+| `crontab -u usuario` | Gestionar el crontab de otro usuario (requiere privilegios de superusuario). | `crontab -u usuario [opciones]`                                        |
+
+````
+⚠️ El fichero de configuración de crontab tiene una sintazis muy concreta y esta definida en los comentarios del propio fichero ⚠️
+
+````
+
+![crontab](img/crontab5.png)
